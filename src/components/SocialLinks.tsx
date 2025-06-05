@@ -5,34 +5,22 @@ import Icon from "@/components/ui/icon";
 const SocialLinks = () => {
   const socials = [
     {
-      name: "GitHub",
-      icon: "Github",
-      url: "https://github.com",
-      color: "hover:bg-gray-900 hover:text-white",
-    },
-    {
-      name: "LinkedIn",
-      icon: "Linkedin",
-      url: "https://linkedin.com",
-      color: "hover:bg-blue-600 hover:text-white",
+      name: "TikTok",
+      icon: "Video",
+      url: "https://tiktok.com/@ваш_профиль",
+      color: "hover:bg-black hover:text-white",
     },
     {
       name: "Telegram",
       icon: "Send",
-      url: "https://t.me",
+      url: "https://t.me/ваш_профиль",
       color: "hover:bg-blue-500 hover:text-white",
     },
     {
-      name: "Twitter",
-      icon: "Twitter",
-      url: "https://twitter.com",
-      color: "hover:bg-blue-400 hover:text-white",
-    },
-    {
-      name: "TikTok",
-      icon: "Video",
-      url: "https://tiktok.com",
-      color: "hover:bg-black hover:text-white",
+      name: "GitHub",
+      icon: "Github",
+      url: "https://github.com/ваш_профиль",
+      color: "hover:bg-gray-900 hover:text-white",
     },
   ];
 
@@ -45,17 +33,17 @@ const SocialLinks = () => {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 gap-4">
           {socials.map((social, index) => (
             <Button
               key={index}
               variant="outline"
-              className={`flex items-center gap-2 p-4 h-auto transition-all duration-200 ${social.color}`}
+              className={`flex items-center gap-3 p-4 h-auto transition-all duration-200 ${social.color} justify-start`}
               asChild
             >
               <a href={social.url} target="_blank" rel="noopener noreferrer">
-                <Icon name={social.icon} size={18} />
-                <span className="text-sm font-medium">{social.name}</span>
+                <Icon name={social.icon} size={20} />
+                <span className="font-medium">{social.name}</span>
               </a>
             </Button>
           ))}
