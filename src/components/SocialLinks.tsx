@@ -11,6 +11,12 @@ const SocialLinks = () => {
       color: "hover:bg-black hover:text-white",
     },
     {
+      name: "YouTube",
+      icon: "Play",
+      url: "https://youtube.com/@ваш_профиль",
+      color: "hover:bg-red-600 hover:text-white",
+    },
+    {
       name: "Telegram",
       icon: "Send",
       url: "https://t.me/ваш_профиль",
