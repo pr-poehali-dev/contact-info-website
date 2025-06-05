@@ -29,7 +29,7 @@ const Index = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-500 text-sm">Создано с ❤️ в Поехали!</p>
+          <p className="text-gray-500 text-sm">О какой внимательный🤗</p>
         </div>
       </div>
     </div>
