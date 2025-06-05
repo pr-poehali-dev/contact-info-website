@@ -10,7 +10,7 @@ const ProfileCard = () => {
           </div>
           <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-400 rounded-full border-4 border-white"></div>
         </div>
-        <h1 className="text-2xl font-bold text-gray-900">Моисеев Лев</h1>
+        <h1 className="text-2xl font-bold text-gray-900">arabsheih9</h1>
         <p className="text-purple-600 font-medium">Frontend Developer</p>
       </CardHeader>
       <CardContent className="text-center">
