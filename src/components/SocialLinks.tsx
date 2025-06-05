@@ -28,6 +28,12 @@ const SocialLinks = () => {
       url: "https://twitter.com",
       color: "hover:bg-blue-400 hover:text-white",
     },
+    {
+      name: "TikTok",
+      icon: "Video",
+      url: "https://tiktok.com",
+      color: "hover:bg-black hover:text-white",
+    },
   ];
 
   return (
